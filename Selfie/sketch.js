@@ -4,11 +4,13 @@ function setup() {
   fill(160, 100, 60)
   ellipse(200, 200, 200, 250);
 
-  fill(255) // Outer white circles for eyes
+  // Outer white circles for eyes
+  fill(255) 
   ellipse(157, 157, 39)
   ellipse(243, 157, 39);
 
-  fill(0) // Inner black circles for eyes
+  // Inner black circles for eyes
+  fill(0) 
   ellipse(157, 157, 25)
   ellipse(243, 157, 25);
 
@@ -117,15 +119,11 @@ function setup() {
   ellipse(324, 267, 40)
   ellipse(108, 210, 30);
 
-  // Ears
+  // Ear
   fill(160, 100, 60)
   stroke(120, 70, 60)
   strokeWeight(3)
   arc(138, 191, 85, 47, 21, PI + QUARTER_PI , OPEN)
-
-
-
-
   ;
 }
 
