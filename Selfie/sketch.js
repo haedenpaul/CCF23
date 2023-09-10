@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(400, 400);
-  background(255);
+  background(100, 200, 200);
   fill(160, 100, 60)
   ellipse(200, 200, 200, 250);
 
