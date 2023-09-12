@@ -6,6 +6,18 @@ function setup() {
   fill(160, 100, 60)
   ellipse(200, 200, 200, 250);
 
+  // Eyelashes
+  strokeWeight(1)
+  stroke(0)
+  line(146, 142, 143, 132) 
+  line(152, 139, 151, 130)
+  line(159, 138, 160, 130)
+  line(165, 140, 168, 132)
+  line(232, 140, 230, 132)
+  line(240, 138, 239, 130)
+  line(247, 138, 247, 130)
+  line(254, 140, 256, 133);
+  
   // Outer white circles for eyes
   fill(255) 
   ellipse(157, 157, 39)
@@ -15,16 +27,6 @@ function setup() {
   fill(0) 
   ellipse(157, 157, 25)
   ellipse(243, 157, 25);
-
-  // Eyelashes
-  line(146, 142, 143, 132) 
-  line(152, 139, 151, 130)
-  line(159, 138, 160, 130)
-  line(165, 140, 168, 132)
-  line(232, 140, 230, 132)
-  line(240, 138, 239, 130)
-  line(247, 138, 247, 130)
-  line(254, 140, 256, 133);
 
   // Nose
   strokeWeight(2)
