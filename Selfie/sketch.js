@@ -36,6 +36,18 @@ function setup() {
   strokeWeight(3)
   arc(200, 244, 70, 60, 0, PI , CHORD)
 
+   // Neck
+  stroke(160, 100, 60)
+  strokeWeight(1)
+  fill(160, 100, 60)
+  rect(168, 300, 65, 100);
+
+  // Body
+  stroke(100, 0, 100)
+  strokeWeight(1)
+  fill(100, 0, 100)
+  ellipse(201, 399, 200, 110);
+  
   // Hair
   fill(0)
   noStroke()
