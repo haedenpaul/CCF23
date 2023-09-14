@@ -156,9 +156,6 @@ line(77, 325, 60, 317)
   noStroke()
   triangle(324, 299, 344, 320, 297, 373)
 
-
-
-
 }
 
 function mousePressed(){
