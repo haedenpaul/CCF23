@@ -1,7 +1,6 @@
 let x, y;
 let size;
 let xOrigin, yOrigin;
-//let rot;
 let xDir, yDir; //direction
 let rotme = 0.0;
 
@@ -18,28 +17,18 @@ function setup() {
   xOrigin = width/2
   yOrigin = height /2
 
-  
 }
 
 function draw() {
   background(255, 20); // movement trail
-  //push();
-  //translate(xOrigin, yOrigin)
-  //rotate(rot);
-  rectMode(CENTER)
+  rectMode(CENTER);
   rect(x, y, size, size);
-  
-   rectMode(CENTER);
-    
-  
     push();
     fill(0);
     translate(width/2, height/2);// change the origin
     rotate(rotme);// rotate the origin
-    // draw something
     rect(0, 0, 100, 100) //black square in the middle;
-    // reset to the previous origin
-    pop();
+    pop(); // reset to the previous origin
   
     rotme += .05;
   
