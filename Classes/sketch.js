@@ -1,4 +1,4 @@
-let myRect0, myRect1, myRect2;
+let myRect0;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
