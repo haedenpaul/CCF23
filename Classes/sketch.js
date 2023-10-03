@@ -1,8 +1,11 @@
-let myRect0;
+let myRect0, myRect1, myRect2;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
   myRect0 = new Rectangle()
+  myRect1 = new Rectangle()
+  myRect2 = new Rectangle()
+  
   
 }
 
@@ -10,6 +13,16 @@ function draw() {
   myRect0.render();
   myRect0.update();
   myRect0.checkWalls();
+  
+ 
+  myRect1.render();
+  myRect1.update();
+  myRect1.checkWalls();
+  
+  myRect2.render();
+  myRect2.update();
+  myRect2.checkWalls();
+  
   
 }
   
