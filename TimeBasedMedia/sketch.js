@@ -1,4 +1,5 @@
-/* To tell the time, look at the sky. When an hour passes, one of the clouds with dissapear. After 12 hours, it'll be nighttime!
+/* To tell the time, look at the sky. When an hour passes, one of the clouds will dissapear. 
+After 12 hours, it'll be nighttime!
 */
 
 
