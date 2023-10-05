@@ -52,59 +52,60 @@ function draw() {
   
   if(h == 1){ //if the current time is 1:00, remove the cloud
    
-    cloud1.col() //making the cloud the same color as the background because I don't know how to remove an object without clearing the entire sketch
+    cloud1.col(50, 180, 250) //making the cloud the same color as the background because I don't know how to remove an object without clearing the entire sketch
     
     amount.pop() //removing one item from the 'amount' array
   }
   
    if(h === 2){
-    cloud2.col()
+    cloud2.col(50, 180, 250)
     amount.pop()
   } 
   if(h === 3){
-    cloud3.col()
+    cloud3.col(50, 180, 250)
     amount.pop()
   }
   if(h === 4){
-    cloud4.col()
+    cloud4.col(50, 180, 250)
     amount.pop()
   }
   if(h === 5){
-    cloud5.col()
+    cloud5.col(50, 180, 250)
     amount.pop()
   }
   if(h === 6){
-    cloud6.col()
+    cloud6.col(50, 180, 250)
     amount.pop()
   }
   if(h === 7){
-    cloud7.col()
+    cloud7.col(50, 180, 250)
     amount.pop()
   }
   if(h === 8){
-    cloud8.col()
+    cloud8.col(50, 180, 250)
     amount.pop()
   }
   if(h === 9){
-    cloud9.col()
+    cloud9.col(50, 180, 250)
     amount.pop()
   }
   if(h === 10){
-    cloud10.col()
+    cloud10.col(50, 180, 250)
     amount.pop()
   }
   if(h === 11){
-    cloud11.col()
+    cloud11.col(50, 180, 250)
     amount.pop()
   }
   if(h === 12){
-    cloud12.col()
+    cloud12.col(50, 180, 250)
     amount.pop()
   }
   }
   
 //when there are no more items in the 'amount' array, turn into a night sky
   if (amount.length == 0){ 
+    clear()
     background(10, 10, 100)
 }
 
@@ -128,8 +129,11 @@ class Cloud{
     ellipse(this.x1+40,this.y1,24,24);
   }
   
-  col(){ //making the color the same as the background
-    fill(50, 180, 250)
+  col(r, g, b){ //making the color the same as the background
+    this.r = r
+    this.g = g
+    this.b = b
+    fill(r, g, b)
     noStroke()
   }
   
