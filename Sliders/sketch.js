@@ -17,7 +17,7 @@ function setup() {
 function draw() {
 
   //changing the color of the background from green to yellow with the slider
-  let bgColor = color(colorSlider.value(), 220, 50, 30 + colorSlider.value());
+  let bgColor = color(colorSlider.value(), 220, 50, 30);
   background(bgColor); 
 
   //creating the rectangles using the class Rectangle
