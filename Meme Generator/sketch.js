@@ -1,5 +1,4 @@
-// I tried to add user input text, but the text won't show up on the sketch output.
-
+// The user input only shows when you click on the button again.
 
 let littlemissButton, spongeButton, unoButton
 let littlemiss, spongebob, uno
