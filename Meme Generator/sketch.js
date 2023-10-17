@@ -1,5 +1,3 @@
-// User input shows when you click on the button again.
-
 let littlemissButton, spongeButton, unoButton
 let littlemiss, spongebob, uno
 let clicked
