@@ -1,14 +1,3 @@
-/* Start button in the middle of the screen
-when clickeed, it opens the canvas up
-when you click on a specific quadrant (within 2 coordinates), then the lines
-in that quardrant will be drawn (using p5.animS)
-Instructions written at the bottom of canvas:
-  "Click in each quadrant to complete the painting"
-when painting finished, text will say "Great job!" and then there will be a
-reset button or a "next painting" button (if I am able to make more than 1)
-*/
-
-
 function setup() {
   createCanvas(500, 500);
 }
