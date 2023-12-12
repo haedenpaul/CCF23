@@ -79,10 +79,6 @@ function draw() {
   strokeWeight(6)
   animS.line('l16', 115, 29, 278, 165, 278)
   animS.line('l17', 115, 89, 298, 221, 298)
-  
-  
-
-  
 
 }
 
